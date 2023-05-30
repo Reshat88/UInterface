@@ -8,7 +8,7 @@
 import UIKit
 
 class ProfileViewController: UIViewController {
-
+    
     private var profileView: ProfileView {
         let view = Bundle.main.loadNibNamed(
             "ProfileView",
